@@ -71,6 +71,8 @@ query_engine = RetrieverQueryEngine(retriever=retriever)
 result = query_engine.query("Tell me about the worst reviews")
 print(f"Result: \n\n{result}")
 ```
+<img width="979" alt="image" src="https://github.com/user-attachments/assets/36ef50b7-d3e1-4476-bbd0-9c03f252c59e" />
+
 
 ## Future Enhancements
 - Expand review analysis with **topic modeling** and **aspect-based sentiment analysis**.
