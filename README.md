@@ -32,7 +32,7 @@ client = weaviate.connect_to_weaviate_cloud(
 ```python
 OPENAI_API_KEY = 'your_openai_api_key'
 GENERATOR_MODEL_NAME = "Meta-Llama-3.1-8B-Instruct"
-GENERATOR_BASE_URL = "https://your_openai_base_url"
+GENERATOR_BASE_URL = "https://kscope.vectorinstitute.ai/v1"
 ```
 
 3. **Load and Process the Dataset**: The notebook reads the review dataset and converts each review into **TextNodes** with metadata:
